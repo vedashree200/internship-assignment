@@ -11,8 +11,9 @@ function Hero() {
         the
         <span className="green"> status </span>
         Quo with
-        <div className="purple-shape"></div>
       </h1>
+      <div className="hero-line"></div>
+      <div className="wave-shape"></div>
 
       <p>
         We are a team of strategists, designers, communicators,

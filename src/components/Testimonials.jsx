@@ -10,6 +10,11 @@ function Testimonials() {
       </h2>
 
       <div className="testimonial-card">
+        <img
+          src="https://randomuser.me/api/portraits/women/44.jpg"
+          alt="customer"
+          className="testimonial-img"
+        />
         <p>
           "Elementum helped us rethink our strategy and
           move much faster than we expected."

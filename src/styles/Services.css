@@ -85,3 +85,11 @@
 .service-row:hover .arrow {
   transform: translateX(10px);
 }
+.service-row{
+  transition: all .3s ease;
+}
+
+.service-row:hover{
+  padding-left:20px;
+  background:#f7f7f7;
+}

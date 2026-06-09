@@ -56,3 +56,10 @@
     gap: 30px;
   }
 }
+.newsletter button{
+  transition: all 0.3s ease;
+}
+
+.newsletter button:hover{
+  transform: translateY(-3px);
+}

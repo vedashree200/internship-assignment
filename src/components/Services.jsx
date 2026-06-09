@@ -3,10 +3,12 @@ import "../styles/Services.css";
 function Services() {
   return (
     <section className="services">
-
+    <div className="service-curve"></div>
+    <div className="pink-triangle"></div>
       <h2>
         What we <span>can</span> offer you!
       </h2>
+      <div className="service-line"></div>
 
       <div className="service-row">
         <p>Office of multiple interest content</p>

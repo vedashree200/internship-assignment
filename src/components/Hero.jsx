@@ -3,6 +3,7 @@ import "../styles/Hero.css";
 function Hero() {
   return (
     <section className="hero">
+    <div className="left-wave"></div>   
       <h1>
         The thinkers and <br />
         doers were
@@ -12,6 +13,7 @@ function Hero() {
         <span className="green"> status </span>
         Quo with
       </h1>
+      <div className="purple-shape"></div>
       <div className="hero-line"></div>
       <div className="wave-shape"></div>
 
@@ -22,6 +24,14 @@ function Hero() {
       </p>
 
       <div className="purple-shape"></div>
+      <div className="hero-avatars">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" />
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="" />
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="" />
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="" />
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" />
+      </div>
     </section>
   );
 }

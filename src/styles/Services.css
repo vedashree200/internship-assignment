@@ -1,0 +1,87 @@
+.services {
+  padding: 100px 80px;
+}
+
+.services h2 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.services h2 span {
+  background: #dbe8d8;
+  padding: 0 15px;
+  border-radius: 25px;
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  align-items: center;
+
+  padding: 35px 0;
+
+  border-top: 1px solid #ddd;
+}
+
+.service-row:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.service-row p {
+  color: #666;
+}
+
+.service-row h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.service-row span {
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .about-top,
+  .about-bottom {
+    flex-direction: column;
+  }
+
+  .services h2,
+  .testimonials h2,
+  .newsletter h2 {
+    font-size: 40px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.service-row {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.service-row:hover {
+  background: rgba(0, 0, 0, 0.03);
+  transform: translateX(10px);
+}
+.arrow {
+  transition: 0.3s ease;
+}
+
+.service-row:hover .arrow {
+  transform: translateX(10px);
+}

@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 80px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.menu {
+  font-size: 30px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .about-top,
+  .about-bottom {
+    flex-direction: column;
+  }
+
+  .services h2,
+  .testimonials h2,
+  .newsletter h2 {
+    font-size: 40px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #8b5cf6;
+}
